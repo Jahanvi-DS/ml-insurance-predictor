@@ -10,7 +10,7 @@ st.title("🏥 Medical Insurance Cost Predictor")
 st.write("Fill your details and know your annual insurance cost")
 
 # 3. User Interface
-age = st.slider("what is your age?) kya hai?", 18, 100, 30)
+age = st.slider("what is your age?)", 18, 100, 30)
 
 sex = st.selectbox("select your gender", ["Female", "Male"])
 sex_encoded = 1 if sex == "Male" else 0
